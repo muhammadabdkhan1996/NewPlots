@@ -28,8 +28,9 @@ We partition the dataset based on labels such that each agent is assigned data f
 
 From Figures 1-4, both VRLM-SPIDER and VRLM-STORM consistently outperform other competing methods in terms of training loss and testing accuracy, and VRLM-STORM gives sparsest solutions. As before, all methods struggle to  reduce the stationarity violation across both datasets. 
 
+---
 
-
+## Homogeneous Setting with More agents
 
 
 
