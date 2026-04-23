@@ -45,12 +45,11 @@ In this setting, we partition the dataset uniformly at random and evenly distrib
 
 ![MNIST Homogeneous Grid](Plots/mnist_homogeneous_grid.png)
 
-#### Figure 7: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on $2\times 5$ ladder-structured graph.
-
+#### Figure 7: Comparison of proposed methods with three existing methods on MNIST in a homogeneous setting on a $4\times 5$ grid-structured graph.
 
 ![FashionMNIST Homogeneous Grid](Plots/fashionmnist_homogeneous_grid.png)
 
-#### Figure 8: Comparison of proposed methods with three existing methods on Fashion-MNIST in a heterogeneous setting on $2\times 5$ ladder-structured graph.
+#### Figure 8: Comparison of proposed methods with three existing methods on Fashion-MNIST in a homogeneous setting on a $4\times 5$ grid-structured graph.
 
 
 
