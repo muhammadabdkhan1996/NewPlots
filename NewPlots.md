@@ -16,3 +16,16 @@ We partition the dataset based on labels such that each agent is assigned data f
 ![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ring.png)
 
 #### Figure 2: Comparison of proposed methods with three existing methods on Fashion-MNIST in a heterogeneous setting on ring-structured graph of 10 agents.
+
+![MNIST Heterogeneous](Plots/mnist_heterogeneous_ladder.png)
+
+#### Figure 3: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on $2\times 5$ ladder-structured graph.
+
+
+![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ladder.png)
+
+#### Figure 4: Comparison of proposed methods with three existing methods on MNIST in a homogeneous setting on ring-structured graph of 20 agents.
+
+
+
+
