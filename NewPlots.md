@@ -24,7 +24,7 @@ We partition the dataset based on labels such that each agent is assigned data f
 
 ![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ladder.png)
 
-#### Figure 4: Comparison of proposed methods with three existing methods on MNIST in a homogeneous setting on ring-structured graph of 20 agents.
+#### Figure 4: Comparison of proposed methods with three existing methods on Fashion-MNIST in a heterogeneous setting on $2\times 5$ ladder-structured graph.
 
 From Figures 1-4, both VRLM-SPIDER and VRLM-STORM consistently outperform other competing methods in terms of training loss and testing accuracy, and VRLM-STORM gives sparsest solutions. As before, all methods struggle to  reduce the stationarity violation across both datasets. 
 
