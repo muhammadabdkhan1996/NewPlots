@@ -38,7 +38,6 @@ In this setting, we partition the dataset uniformly at random and evenly distrib
 
 #### Figure 5: Comparison of proposed methods with three existing methods on MNIST in a homogeneous setting on ring-structured graph of 20 agents.
 
-
 ![FashionMNIST Homogeneous Ring](Plots/fashionmnist_homogeneous_ring.png)
 
 #### Figure 6: Comparison of proposed methods with three existing methods on Fashion-MNIST in a homogeneous setting on ring-structured graph of 20 agents.
@@ -51,6 +50,7 @@ In this setting, we partition the dataset uniformly at random and evenly distrib
 
 #### Figure 8: Comparison of proposed methods with three existing methods on Fashion-MNIST in a homogeneous setting on a $4\times 5$ grid-structured graph.
 
+From Figures 5-8, we observe that DPOSG consistently gives the highest test accuracy, VRLM-STORM and DPOSG perform the best on MNIST in terms of training loss and on Fashion-MNIST in terms of test accuracy, and VRLM-SPIDER gives lowest training loss on Fashion-MNIST. Again, all methods struggle to decrease stationarity violation.
 
 
 
