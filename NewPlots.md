@@ -10,7 +10,7 @@ The results are as follows:
 
 #### MNIST - Heterogeneous
 
-![MNIST Heterogeneous](mnist_results_heterogeneous.png)
+![MNIST Heterogeneous](Plots/mnist_results_heterogeneous.png)
 
 ---
 
