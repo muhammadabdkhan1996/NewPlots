@@ -6,15 +6,13 @@ In response to the reviewer’s request to evaluate performance under data heter
 
 The results are as follows:
 
----
+#### Ladder Topology
 
-#### MNIST - Heterogeneous
+###### MNIST
 
 ![MNIST Heterogeneous](Plots/mnist_heterogeneous_ladder.png)
 
----
-
-#### FashionMNIST - Heterogeneous
+###### FashionMNIST
 
 ![FashionMNIST Heterogeneous](fashionmnist_results_heterogeneous.png)
 
