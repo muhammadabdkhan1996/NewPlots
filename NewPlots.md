@@ -12,31 +12,6 @@ We partition the dataset based on labels such that each agent is assigned data f
 
 ###### Figure 1: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on ring-structured graph.
 
+![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ring.png)
 
-###### FashionMNIST
-
-![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ladder.png)
-
-From the figures above, the same trend is observed: both variants of VRLM consistently outperform all competing methods in terms of training loss and testing accuracy. As before, all methods struggle to significantly reduce the stationarity violation across both datasets. However, this limitation does not appear to impact their practical performance, as each method is still able to effectively minimize training loss and achieve competitive testing accuracy.
-
----
-
-## Homogeneous Setting
-
-For this setting, we run the sparse DRO problem for both the MNIST and FashionMNIST datasets. While the choice of learning rate is the same as before for MNIST, for the FashionMNIST dataset further tuning is applied (details to be specified as needed).
-
-The results are as follows:
-
----
-
-#### MNIST - Homogeneous
-
-![MNIST Homogeneous](mnist_results_homogeneous.png)
-
----
-
-#### FashionMNIST - Homogeneous
-
-![FashionMNIST Homogeneous](fashionmnist_results_homogeneous.png)
-
----
+###### Figure 2: Comparison of proposed methods with three existing methods on Fashion-MNIST in a heterogeneous setting on ring-structured graph of 10 agents.
