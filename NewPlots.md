@@ -10,7 +10,7 @@ We partition the dataset based on labels such that each agent is assigned data f
 
 ![MNIST Heterogeneous Ring](Plots/mnist_heterogeneous_ring.png)
 
-#### Figure 1: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on ring-structured graph.
+#### Figure 1: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on ring-structured graph of 10 agents.
 
 
 ![FashionMNIST Heterogeneous Ring](Plots/fashionmnist_heterogeneous_ring.png)
