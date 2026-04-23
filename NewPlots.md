@@ -14,7 +14,7 @@ The results are as follows:
 
 ###### FashionMNIST
 
-![FashionMNIST Heterogeneous](fashionmnist_results_heterogeneous.png)
+![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ladder.png)
 
 ---
 
