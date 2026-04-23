@@ -32,6 +32,8 @@ From Figures 1-4, both VRLM-SPIDER and VRLM-STORM consistently outperform other 
 
 ## Homogeneous Setting with More agents
 
+In this setting, we partition the dataset uniformly at random and evenly distribute to 20 agents. Again we test the methods on solving the sparse DRO problem by using the MNIST and FashionMNIST datasets. In addition to the ring-structured graph, we also use a $4\times 5$ grid communication graph. We adopt the same previously tuned hyperparameters for all methods, except that we decreased the primal and dual learning rates from $10^{-4}$ to $4\times 10^{-5}$ for VRLM-SPIDER on both datasets and decreased the primal and dual learning rates from $10^{-2}$ to $4\times 10^{-3}$ for VRLM-STORM on FashionMNIST, because otherwise they will not converge in the new setting.  Three independent trials were conducted. The results for MNIST data with ring-structured communication graph are shown in Figure 5, results for Fashion-MNIST with ring-structured graph are in Figure 6, results for MNIST data with grid-structured graph are shown in Figure 7, and results for Fashion-MNIST with grid-structured graph are in Figure 8.
+
 
 
 
