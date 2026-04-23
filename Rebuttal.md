@@ -8,13 +8,13 @@ The results are as follows:
 
 ---
 
-### MNIST - Heterogeneous
+#### MNIST - Heterogeneous
 
 ![MNIST Heterogeneous](mnist_results_heterogeneous.png)
 
 ---
 
-### FashionMNIST - Heterogeneous
+#### FashionMNIST - Heterogeneous
 
 ![FashionMNIST Heterogeneous](fashionmnist_results_heterogeneous.png)
 
@@ -32,13 +32,13 @@ The results are as follows:
 
 ---
 
-### MNIST - Homogeneous
+#### MNIST - Homogeneous
 
 ![MNIST Homogeneous](mnist_results_homogeneous.png)
 
 ---
 
-### FashionMNIST - Homogeneous
+#### FashionMNIST - Homogeneous
 
 ![FashionMNIST Homogeneous](fashionmnist_results_homogeneous.png)
 
