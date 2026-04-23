@@ -8,9 +8,10 @@ The results are as follows:
 
 #### Ladder Topology
 
-###### MNIST
-
 ![MNIST Heterogeneous](Plots/mnist_heterogeneous_ladder.png)
+
+###### Figure 1: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on ring-structured graph.
+
 
 ###### FashionMNIST
 
