@@ -1,14 +1,14 @@
 # Additional Numerical Experiments
 
-## Heterogeneous Setting
+Per the suggestion of Reviewers PpxE and PYRf, we conducted more experiments to evaluate the proposed algorithms, including heterogeneous data, homogeneous data on more agents, and experiments on different communication graphs.
 
-In response to the reviewer’s request to evaluate performance under data heterogeneity, we extend our experiments to a fully heterogeneous setting. Specifically, we partition the dataset across agents such that each agent is assigned data from a single class only. With 10 agents and 10 classes, each agent exclusively holds samples from one class, representing a non-i.i.d. scenario. We adopt the same decentralized sparse DRO formulation as before and evaluate on both MNIST and FashionMNIST. The communication topology is chosen to be a ring network. Due to computational limitations (CPU-only experiments), we do not perform a full hyperparameter grid search in this setting. Instead, we reuse the best-performing hyperparameters identified earlier. While this may not yield individually optimal tuning for each method under heterogeneity, it ensures a fair and consistent comparison while keeping the computational cost manageable.
+---
 
-The results are as follows:
+## Heterogeneous Setting and more topologies
 
-#### Ladder Topology
+We partition the dataset based on labels such that each agent is assigned data from a single class only. With 10 agents and 10 classes, each agent exclusively holds samples from one class, representing an extreme non-i.i.d. scenario. We adopt the same decentralized sparse DRO formulation as before and evaluate on both MNIST and Fashion-MNIST. In addition to using the previous ring-structured communication graph, we also used the 2 by 5 ladder-structured communication topology. Due to limitation of computing resource (CPU-only experiments), we adopt the previously tuned hyperparameters for each compared method, and 3 independent trials were conducted. The results for MNIST data with ring-structured communication graph are shown in Figure 1, results for Fashion-MNIST with ring-structured graph are in Figure 2, results for MNIST data with ladder-structured graph are shown in Figure 3, and results for Fashion-MNIST with ladder-structured graph are in Figure 4.
 
-![MNIST Heterogeneous](Plots/mnist_heterogeneous_ladder.png)
+![MNIST Heterogeneous](Plots/mnist_heterogeneous_ring.png)
 
 ###### Figure 1: Comparison of proposed methods with three existing methods on MNIST in a heterogeneous setting on ring-structured graph.
 
