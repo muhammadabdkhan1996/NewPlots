@@ -16,8 +16,6 @@ The results are as follows:
 
 ![FashionMNIST Heterogeneous](Plots/fashionmnist_heterogeneous_ladder.png)
 
----
-
 From the figures above, the same trend is observed: both variants of VRLM consistently outperform all competing methods in terms of training loss and testing accuracy. As before, all methods struggle to significantly reduce the stationarity violation across both datasets. However, this limitation does not appear to impact their practical performance, as each method is still able to effectively minimize training loss and achieve competitive testing accuracy.
 
 ---
